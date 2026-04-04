@@ -66,13 +66,20 @@ Organization, Person, WebSite, WebPage, Article, FAQPage, BreadcrumbList, Produc
 | `check-ai-visibility.mjs` | AI crawler accessibility checker + scoring |
 | `generate-og-images.mjs` | Dynamic Open Graph image generator |
 
-### Documentation (6 guides)
+### Documentation (10 guides)
 | Doc | Content |
 |-----|---------|
 | `AI-SEO-GUIDE.md` | Complete 2026 AI search optimization (7 pillars) |
 | `YOUTUBE-SEO-GUIDE.md` | YouTube SEO strategy — #1 AI visibility signal |
 | `YOUTUBE-SHORTS-GUIDE.md` | YouTube Shorts viral strategy for maximum reach |
+| `TIKTOK-STRATEGY.md` | TikTok viral strategy — fastest organic reach |
+| `INSTAGRAM-STRATEGY.md` | Instagram Reels strategy — 2.4B users |
+| `X-TWITTER-STRATEGY.md` | X/Twitter strategy — #1 AI/Tech discourse platform |
+| `LINKEDIN-STRATEGY.md` | LinkedIn B2B strategy — 20x engagement |
 | `REDDIT-STRATEGY.md` | Reddit strategy for Perplexity citations (46.7%) |
+| `PINTEREST-STRATEGY.md` | Pinterest visual search engine strategy |
+| `EMAIL-STRATEGY.md` | Email marketing — $36 ROI per $1 spent |
+| `MAXIMUM-REACH-PLAYBOOK.md` | Complete 30-day plan for maximum reach |
 | `CONTENT-OPTIMIZATION.md` | Entity extraction, Q&A format, semantic SEO |
 | `SCHEMA-REFERENCE.md` | All 12 JSON-LD schemas with examples |
 | `CHECKLIST.md` | 80+ point pre-deployment checklist |
