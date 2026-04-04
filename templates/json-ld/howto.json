@@ -1,0 +1,27 @@
+{
+  "_comment": "HowTo Schema — For tutorials, guides, step-by-step content",
+  "_usage": "Add to blog posts that are tutorials or how-to guides",
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "{{howto.title}}",
+  "description": "{{howto.description}}",
+  "totalTime": "{{howto.totalTime}}",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "{{howto.currency || 'USD'}}",
+    "value": "{{howto.cost || '0'}}"
+  },
+  "supply": {{json howto.supply || '[]'}},
+  "tool": {{json howto.tools || '[]'}},
+  "step": [
+    {{#each howto.steps}}
+    {
+      "@type": "HowToStep",
+      "position": {{add @index 1}},
+      "name": "{{this.name}}",
+      "text": "{{this.text}}",
+      "url": "{{../site.url}}{{../article.path}}#step-{{add @index 1}}"
+    }{{#unless @last}},{{/unless}}
+    {{/each}}
+  ]
+}

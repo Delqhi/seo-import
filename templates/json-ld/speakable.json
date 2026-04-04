@@ -1,0 +1,27 @@
+{
+  "_comment": "SpeakableSpecification Schema — For voice assistants (Siri, Alexa, Google Assistant)",
+  "_usage": "Add to pages with content you want read aloud by voice assistants",
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{article.title}}",
+  "description": "{{article.description}}",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", "h2", ".speakable-summary"]
+  },
+  "author": {
+    "@type": "Person",
+    "name": "{{person.name}}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{organization.name}}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{organization.logo}}"
+    }
+  },
+  "datePublished": "{{article.date}}",
+  "dateModified": "{{article.dateModified || article.date}}",
+  "url": "{{site.url}}{{article.path}}"
+}
