@@ -1,0 +1,74 @@
+{
+  "_comment": "SEO Configuration — Edit this file for your project",
+  "site": {
+    "name": "OpenSIN",
+    "url": "https://me.delqhi.com",
+    "description": "OpenSIN: Das erste Agent-to-Agent Netzwerk mit 100+ autonomen KI-Agenten. 18 spezialisierte Teams die kommunizieren, koordinieren und ausführen.",
+    "language": "de",
+    "alternateLanguages": ["en"],
+    "themeColor": "#0d1117"
+  },
+  "organization": {
+    "name": "OpenSIN",
+    "alternateName": "Open Source Intelligence Network",
+    "url": "https://opensin.ai",
+    "logo": "https://me.delqhi.com/LOGO-OpenSIN-8K-transparent.png",
+    "logoWidth": 8192,
+    "logoHeight": 8192,
+    "sameAs": [
+      "https://github.com/OpenSIN-AI",
+      "https://github.com/Delqhi/opensin",
+      "https://x.com/delqhi",
+      "https://linkedin.com/in/jeremyschulze"
+    ],
+    "knowsAbout": [
+      "AI Agents", "Multi-Agent Systems", "Agent-to-Agent Protocol",
+      "AI Orchestration", "Autonomous Systems", "Open Source Software", "Machine Learning"
+    ]
+  },
+  "person": {
+    "name": "Jeremy Schulze",
+    "alternateName": "Delqhi",
+    "jobTitle": "Senior AI & Software Engineer",
+    "sameAs": [
+      "https://github.com/Delqhi",
+      "https://x.com/delqhi",
+      "https://linkedin.com/in/jeremyschulze"
+    ],
+    "knowsAbout": [
+      "Artificial Intelligence", "Multi-Agent Systems", "Angular",
+      "TypeScript", "Cloud Computing", "Open Source"
+    ]
+  },
+  "blog": {
+    "enabled": true,
+    "source": "https://raw.githubusercontent.com/OpenSIN-AI/OpenSIN-Blog-Posts/main",
+    "postsPerPage": 10,
+    "maxRssItems": 20
+  },
+  "social": {
+    "twitter": "@delqhi",
+    "github": "https://github.com/Delqhi",
+    "linkedin": "https://linkedin.com/in/jeremyschulze"
+  },
+  "faq": [
+    {
+      "question": "Was ist OpenSIN?",
+      "answer": "OpenSIN ist das erste Agent-to-Agent (A2A) Netzwerk mit über 100 autonomen KI-Agenten, organisiert in 18 spezialisierten Teams."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen OpenSIN und einzelnen AI-Agenten?",
+      "answer": "Einzelne AI-Agenten sind Assistenten. OpenSIN ist ein Netzwerk aus 100+ spezialisierten Agenten die autonom Aufgaben ausführen."
+    },
+    {
+      "question": "Ist OpenSIN kostenlos?",
+      "answer": "Ja, OpenSIN ist vollständig open source und kostenlos. MyOpenSIN bietet Premium-Features."
+    }
+  ],
+  "pages": [
+    { "path": "/", "priority": "1.0", "changefreq": "daily" },
+    { "path": "/blog", "priority": "0.9", "changefreq": "daily" },
+    { "path": "/readme", "priority": "0.7", "changefreq": "weekly" },
+    { "path": "/projects", "priority": "0.7", "changefreq": "weekly" }
+  ]
+}
