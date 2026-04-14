@@ -1,0 +1,5 @@
+# Single Page Application (SPA) catch-all for Cloudflare Pages / Netlify
+/* /index.html 200
+
+# Canonical redirects (remove www)
+https://www.* https://* 301

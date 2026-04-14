@@ -4,6 +4,22 @@
 
 ## 🚀 Quick Start (30 seconds)
 
+### Method 1: The Automated Auto-Injector (Recommended)
+Automatically inject all SEO templates, AEO components, and scripts into your project:
+
+```bash
+# 1. Clone
+git clone https://github.com/Delqhi/seo-import.git
+
+# 2. Run the Auto-Injector on your target project
+node seo-import/cli.js inject /path/to/your-project
+
+# 3. Update your package.json with your actual domain
+# 4. Run your standard build (the injector automatically chained the SEO steps)
+```
+
+### Method 2: Manual (Legacy)
+
 ```bash
 # 1. Clone
 git clone https://github.com/Delqhi/seo-import.git

@@ -1,0 +1,12 @@
+{
+  "name": "seo-import",
+  "version": "1.0.0",
+  "description": "The ultimate OpenSIN AI SEO, GEO, and AEO toolkit for maximizing reach.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["seo", "aeo", "geo", "llm", "automation"],
+  "author": "Jeremy Schulze & OpenSIN Team",
+  "license": "Apache-2.0"
+}
